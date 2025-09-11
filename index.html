@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+
+   <!-- navbar -->
     <nav class="bg-deepBlue ">
         <div class="relative w-[1080px] mx-auto flex items-center justify-between ">
 
@@ -88,23 +90,47 @@
             <button class="py-3 px-5 font-mulish text-white border-lightBlue 
             border rounded-sm text-sm font-bold">Log in</button>
 
-            <button class="py-3 px-4 font-Mulish rounded-sm text-sm font-bold
-             bg-white text-lightBlue300 border transition-all duration-200
-             hover:text-lightBlue500" >SignUp <svg
-              viewBox="0 0 24 24"
-              focusable="false"
-              class="w-[14px] h-[14px] ml-3"
-            >
-              <path
-                fill="currentColor"
-                d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-              ></path>
-            </svg></button>
+            <button class="flex items-center py-2.5 px-5 rounded-md border border-lightBlue300 
+             text-lightBlue300 font-semibold text-sm bg-white hover:bg-lightBlue50 
+             hover:text-lightBlue500 transition-all duration-200">
+               Sign Up
+            <svg viewBox="0 0 24 24" focusable="false" class="w-4 h-4 ml-2">
+            <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
+            </svg>
+            </button>
+
          </div>
 
 
         </div>
 
     </nav>
+
+    <!-- hero section -->
+    <section
+    class="relative bg-deepBlue">
+   
+    <div class="w-10/12 max-w-[1080px] flex flex-row justify-between items-center mx-auto ">
+      
+      <!-- left part -->
+       <div class="space-y-8">
+         <h1 class="font-mullish font-bold text-[40px] leading-[1.2] text-white">Power your finance , grow your business</h1>
+         <div class="w-6 h-1 bg-greenLight"></div>
+         <p class="font-mullish text-[18px] leading-7 text-white opacity-70">Accept payments from customers. Automate payouts to vendors
+            & employees. Never run out of working capital.
+         </p>
+         <button class="bg-lightBlue text-white rounded-md font-mullish 
+         font-bold hover:bg-lightBlue transition-all duration-200 py-[14px] px-[18px] "
+         >Sign Up Now</button>
+       </div>
+      
+       <!-- rigt part -->
+       <img class="w-full max-w-[680px]" src="./Images/hero-illustration.jpg" alt="">
+    </div>
+    <!-- shape part      may changes required furthor -->
+     <div class="w-[100.1%] absolute left-0 right-0 ">
+      <img class="w-full object-fill  " src="./Images/hero-shape.svg" alt="">
+     </div>
+   </section>
 </body> 
 </html>
